@@ -11,7 +11,7 @@ title:            3d Print Exchange
 tagline:          'A Jekyll theme'
 description:      'Build your own tools using our API to access 3dprint.nih.gov public data.'
 url:              https://github.com/MedicalScienceComputing/3dpx-api-docs
-baseurl:          /3dpx-api-docs
+baseurl:          /3dpx-api-docs/
 
 author:
   name:           ''
