@@ -1,0 +1,274 @@
+---
+  -
+    field_name: "Title"
+    description: "Model title"
+    data_type: "String"
+  -
+    field_name: "Category"
+    description: "field_model_category_tag"
+    data_type: "Term reference"
+  -
+    field_name: "Model ID"
+    description: "field_model_model_id"
+    data_type: "Text"
+  -
+    field_name: "3D Model File"
+    description: "field_model_3d_model_file"
+    data_type: "URL (file)"
+  -
+    field_name: "DICOM File"
+    description: "field_model_dicom_file"
+    data_type: "URL (file)"
+  -
+    field_name: "DICOM Threshold"
+    description: "field_model_dicom_threshold"
+    data_type: "List (text)"
+  -
+    field_name: "Molecular Data File"
+    description: "field_model_molecular_data_file"
+    data_type: "URL (file)"
+  -
+    field_name: "Volumetric Data File"
+    description: "field_model_volumetric_data_file"
+    data_type: "URL (file)"
+  -
+    field_name: "Contour Level"
+    description: "field_model_contour_level"
+    data_type: "Text"
+  -
+    field_name: "Protein Data Bank ID"
+    description: "field_model_pdb_id"
+    data_type: "Text"
+  -
+    field_name: "Electron Microscopy Data Bank ID"
+    description: "field_model_emdb_id"
+    data_type: "Integer"
+  -
+    field_name: "Description"
+    description: "field_model_description"
+    data_type: "Long text and summary"
+  -
+    field_name: "Model image(s)"
+    description: "field_model_model_images"
+    data_type: "URL (file)"
+  -
+    field_name: "X3D"
+    description: "field_model_x3d"
+    data_type: "URL (file)"
+  -
+    field_name: "Keyword(s)"
+    description: "field_model_keywords"
+    data_type: "Term reference"
+  -
+    field_name: "Educational Use"
+    description: "field_model_educational_use"
+    data_type: "Boolean"
+  -
+    field_name: "Classroom Supplementals"
+    description: "field_model_classroom_supplementals"
+    data_type: "URL (file)"
+  -
+    field_name: "Model Color"
+    description: "field_model_model_color"
+    data_type: "Text"
+  -
+    field_name: "Model Origin"
+    description: "field_model_model_origin"
+    data_type: "Text"
+  -
+    field_name: "HTML"
+    description: "field_model_html"
+    data_type: "File"
+  -
+    field_name: "Experimental Method"
+    description: "field_model_experimental_method"
+    data_type: "Text"
+  -
+    field_name: "Organism Tag"
+    description: "field_model_organism_tag"
+    data_type: "Term reference"
+  -
+    field_name: "Associated Species"
+    description: "field_model_associated_species"
+    data_type: "Text"
+  -
+    field_name: "Sample"
+    description: "field_model_sample"
+    data_type: "Text"
+  -
+    field_name: "Molecular Weight"
+    description: "field_model_molecular_weight"
+    data_type: "Text"
+  -
+    field_name: "Resolution"
+    description: "field_model_resolution"
+    data_type: "Text"
+  -
+    field_name: "Resolution Units"
+    description: "field_model_resolution_units"
+    data_type: "Text"
+  -
+    field_name: "UniProt Reference Number"
+    description: "field_model_uniprot_reference"
+    data_type: "Text"
+  -
+    field_name: "Oligomeric Details"
+    description: "field_model_oligometric_details"
+    data_type: "Text"
+  -
+    field_name: "R-Factor"
+    description: "field_model_r_factor"
+    data_type: "Text"
+  -
+    field_name: "Scattering Type"
+    description: "field_model_scattering_type"
+    data_type: "Text"
+  -
+    field_name: "Contour Level"
+    description: "field_model_contour_level"
+    data_type: "Text"
+  -
+    field_name: "Medical or Scientific Field of Study"
+    description: "field_model_field_of_study"
+    data_type: "Text"
+  -
+    field_name: "Data Source"
+    description: "field_model_data_source"
+    data_type: "List (text)"
+  -
+    field_name: "X Dimension"
+    description: "field_model_x_dimension"
+    data_type: "Text"
+  -
+    field_name: "Y Dimension"
+    description: "field_model_y_dimension"
+    data_type: "Text"
+  -
+    field_name: "Z Dimension"
+    description: "field_model_z_dimension"
+    data_type: "Text"
+  -
+    field_name: "X Spacing"
+    description: "field_model_x_spacing"
+    data_type: "Text"
+  -
+    field_name: "Y Spacing"
+    description: "field_model_y_spacing"
+    data_type: "Text"
+  -
+    field_name: "Z Spacing"
+    description: "field_model_z_spacing"
+    data_type: "Text"
+  -
+    field_name: "Research Application"
+    description: "field_model_research_application"
+    data_type: "Text"
+  -
+    field_name: "Recommended 3D Printer(s)"
+    description: "field_model_recommended_printers"
+    data_type: "Text"
+  -
+    field_name: "Recommended Printing Material"
+    description: "field_model_recommended_material"
+    data_type: "Text"
+  -
+    field_name: "Recommended Support Material"
+    description: "field_model_recommended_support"
+    data_type: "Text"
+  -
+    field_name: "Print Units"
+    description: "field_model_print_units"
+    data_type: "Text"
+  -
+    field_name: "Scale at Given Print Units"
+    description: "field_model_scale_at_print_units"
+    data_type: "Text"
+  -
+    field_name: "Finishing Instructions"
+    description: "field_model_finishing_instructions"
+    data_type: "Long text"
+  -
+    field_name: "PubMed ID"
+    description: "field_model_pubmed_id"
+    data_type: "Integer"
+  -
+    field_name: "Digital Object Identifier (DOI)"
+    description: "field_model_digital_object_id"
+    data_type: "Text"
+  -
+    field_name: "Author(s)"
+    description: "field_model_authors"
+    data_type: "Text"
+  -
+    field_name: "Other Related Citation(s)"
+    description: "field_model_other_related_cit"
+    data_type: "Integer"
+  -
+    field_name: "Citation Title"
+    description: "field_model_citation_title"
+    data_type: "Text"
+  -
+    field_name: "Citation Year"
+    description: "field_model_citation_year"
+    data_type: "Text"
+  -
+    field_name: "Attribution Instructions"
+    description: "field_model_attribution_instr"
+    data_type: "Long text"
+  -
+    field_name: "Additional Model File(s)"
+    description: "field_model_additional_3d_model"
+    data_type: "URL (file)"
+  -
+    field_name: "Supplemental Documentation"
+    description: "field_model_supplemental_doc"
+    data_type: "URL (file)"
+  -
+    field_name: "URL path settings"
+    description: "path"
+    data_type: "Path module form elements"
+  -
+    field_name: "NIH Verified"
+    description: "field_model_nih_verified"
+    data_type: "Boolean"
+  -
+    field_name: "Terms and Conditions"
+    description: "field_model_terms_and_conditions"
+    data_type: "Boolean"
+  -
+    field_name: "Pipeline Log"
+    description: "field_model_pipeline_log"
+    data_type: "Long text"
+  -
+    field_name: "License"
+    description: "field_model_ license"
+    data_type: "Node reference"
+  -
+    field_name: "Download File(s)"
+    description: "field_model_download_files"
+    data_type: "URL (file)"
+  -
+    field_name: "Rating"
+    description: "field_model_rating"
+    data_type: "Fivestar Rating"
+  -
+    field_name: "Variation(s)"
+    description: "field_model_variations"
+    data_type: "Node reference"
+  -
+    field_name: "Quick Submit"
+    description: "field_model_quick_submit"
+    data_type: "Boolean"
+  -
+    field_name: "MoM Date"
+    description: "field_model_mom_date"
+    data_type: "Date"
+  -
+    field_name: "Link to MoM etnry"
+    description: "field_model_pdb_mom_url"
+    data_type: "Link"
+  -
+    field_name: "MoM Category"
+    description: "field_model_mom_category"
+    data_type: "Term reference"
+
