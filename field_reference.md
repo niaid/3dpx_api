@@ -9,18 +9,18 @@ permalink: /field_reference/
 <table class="table">
   <thead>
     <tr>
-      <th>Field name</th>
-      <th>Description</th>
-      <th>Data Type</th>
+      <th class="th">Field name</th>
+      <th class="th">Description</th>
+      <th class="th">Data Type</th>
     </tr>
   </thead>
   <tbody>
 
   {% for field_refs_for_3dpx_read_api in site.data.field_refs_for_3dpx_read_apis %}
   <tr>
-    <td>{{ field_refs_for_3dpx_read_api.field_name }}</td>
-    <td>{{ field_refs_for_3dpx_read_api.description }}</td>
-    <td>{{ field_refs_for_3dpx_read_api.data_type }}</td>    
+    <td class="td">{{ field_refs_for_3dpx_read_api.field_name }}</td>
+    <td class="td">{{ field_refs_for_3dpx_read_api.description }}</td>
+    <td class="td">{{ field_refs_for_3dpx_read_api.data_type }}</td>    
   </tr>
   {% endfor %}
   </tbody>
@@ -31,17 +31,17 @@ The following fields are required for proper pipeline processing and/or organiza
 <table>
   <thead>
     <tr>
-      <th>Label</th>
-      <th>Field Name</th>
-      <th>Field Type</th>
+      <th class="th">Label</th>
+      <th class="th">Field Name</th>
+      <th class="th">Field Type</th>
     </tr>
   </thead>
   <tbody>
   {% for field_refs_for_3dpx_write_api in site.data.field_refs_for_3dpx_write_apis %}
   <tr>
-    <td>{{ field_refs_for_3dpx_write_api.label }}</td>
-    <td>{{ field_refs_for_3dpx_write_api.field_name }}</td>
-    <td>{{ field_refs_for_3dpx_write_api.field_type }}</td>    
+    <td class="td">{{ field_refs_for_3dpx_write_api.label }}</td>
+    <td class="td">{{ field_refs_for_3dpx_write_api.field_name }}</td>
+    <td class="td">{{ field_refs_for_3dpx_write_api.field_type }}</td>    
   </tr>
   {% endfor %}
   </tbody>
