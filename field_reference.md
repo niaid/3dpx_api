@@ -25,7 +25,8 @@ permalink: /field_reference/
   {% endfor %}
   </tbody>
 </table>
-### II. Model Metadata Fields for 3DPX "Write" APIs
+
+#### II. Model Metadata Fields for 3DPX "Write" APIs
 The following fields are required for proper pipeline processing and/or organization within the repository, and should be included in any API-based model submissions.
 
 <table>
