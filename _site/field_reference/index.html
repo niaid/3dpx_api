@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Field Reference for 3DPX APIs</title>
+  <meta name="description" content="Build your own tools using our API to access 3dprint.nih.gov public data.
+">
+
+  <link rel="stylesheet" href="/3dpx-api-docs/css/main.css">
+  <link rel="canonical" href="https://github.com/MedicalScienceComputing/3dpx-api-docs/field_reference/">
+  <link rel="alternate" type="application/rss+xml" title="3D Print Exchange" href="https://github.com/MedicalScienceComputing/3dpx-api-docs/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/3dpx-api-docs/">3D Print Exchange</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/3dpx-api-docs/api_basics/">API Basics</a>
+          
+        
+          
+          <a class="page-link" href="/3dpx-api-docs/api_calls/">API Calls</a>
+          
+        
+          
+        
+          
+          <a class="page-link" href="/3dpx-api-docs/field_reference/">Field Reference for 3DPX APIs</a>
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Field Reference for 3DPX APIs</h1>
+  </header>
+
+  <article class="post-content">
+    <h4 id="i-model-metadata-fields-for-3dpx-read-api-calls">I. Model Metadata Fields for 3DPX “Read” API Calls</h4>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Field name</th>
+      <th>Description</th>
+      <th>Data Type</th>
+    </tr>
+  </thead>
+  <tbody>
+
+  
+  <tr>
+    <td>Title</td>
+    <td>Model title</td>
+    <td>String</td>    
+  </tr>
+  
+  <tr>
+    <td>Category</td>
+    <td>field_model_category_tag</td>
+    <td>Term reference</td>    
+  </tr>
+  
+  <tr>
+    <td>Model ID</td>
+    <td>field_model_model_id</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>3D Model File</td>
+    <td>field_model_3d_model_file</td>
+    <td>URL (file)</td>    
+  </tr>
+  
+  <tr>
+    <td>DICOM File</td>
+    <td>field_model_dicom_file</td>
+    <td>URL (file)</td>    
+  </tr>
+  
+  <tr>
+    <td>DICOM Threshold</td>
+    <td>field_model_dicom_threshold</td>
+    <td>List (text)</td>    
+  </tr>
+  
+  <tr>
+    <td>Molecular Data File</td>
+    <td>field_model_molecular_data_file</td>
+    <td>URL (file)</td>    
+  </tr>
+  
+  <tr>
+    <td>Volumetric Data File</td>
+    <td>field_model_volumetric_data_file</td>
+    <td>URL (file)</td>    
+  </tr>
+  
+  <tr>
+    <td>Contour Level</td>
+    <td>field_model_contour_level</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Protein Data Bank ID</td>
+    <td>field_model_pdb_id</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Electron Microscopy Data Bank ID</td>
+    <td>field_model_emdb_id</td>
+    <td>Integer</td>    
+  </tr>
+  
+  <tr>
+    <td>Description</td>
+    <td>field_model_description</td>
+    <td>Long text and summary</td>    
+  </tr>
+  
+  <tr>
+    <td>Model image(s)</td>
+    <td>field_model_model_images</td>
+    <td>URL (file)</td>    
+  </tr>
+  
+  <tr>
+    <td>X3D</td>
+    <td>field_model_x3d</td>
+    <td>URL (file)</td>    
+  </tr>
+  
+  <tr>
+    <td>Keyword(s)</td>
+    <td>field_model_keywords</td>
+    <td>Term reference</td>    
+  </tr>
+  
+  <tr>
+    <td>Educational Use</td>
+    <td>field_model_educational_use</td>
+    <td>Boolean</td>    
+  </tr>
+  
+  <tr>
+    <td>Classroom Supplementals</td>
+    <td>field_model_classroom_supplementals</td>
+    <td>URL (file)</td>    
+  </tr>
+  
+  <tr>
+    <td>Model Color</td>
+    <td>field_model_model_color</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Model Origin</td>
+    <td>field_model_model_origin</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>HTML</td>
+    <td>field_model_html</td>
+    <td>File</td>    
+  </tr>
+  
+  <tr>
+    <td>Experimental Method</td>
+    <td>field_model_experimental_method</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Organism Tag</td>
+    <td>field_model_organism_tag</td>
+    <td>Term reference</td>    
+  </tr>
+  
+  <tr>
+    <td>Associated Species</td>
+    <td>field_model_associated_species</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Sample</td>
+    <td>field_model_sample</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Molecular Weight</td>
+    <td>field_model_molecular_weight</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Resolution</td>
+    <td>field_model_resolution</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Resolution Units</td>
+    <td>field_model_resolution_units</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>UniProt Reference Number</td>
+    <td>field_model_uniprot_reference</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Oligomeric Details</td>
+    <td>field_model_oligometric_details</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>R-Factor</td>
+    <td>field_model_r_factor</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Scattering Type</td>
+    <td>field_model_scattering_type</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Contour Level</td>
+    <td>field_model_contour_level</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Medical or Scientific Field of Study</td>
+    <td>field_model_field_of_study</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Data Source</td>
+    <td>field_model_data_source</td>
+    <td>List (text)</td>    
+  </tr>
+  
+  <tr>
+    <td>X Dimension</td>
+    <td>field_model_x_dimension</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Y Dimension</td>
+    <td>field_model_y_dimension</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Z Dimension</td>
+    <td>field_model_z_dimension</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>X Spacing</td>
+    <td>field_model_x_spacing</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Y Spacing</td>
+    <td>field_model_y_spacing</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Z Spacing</td>
+    <td>field_model_z_spacing</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Research Application</td>
+    <td>field_model_research_application</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Recommended 3D Printer(s)</td>
+    <td>field_model_recommended_printers</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Recommended Printing Material</td>
+    <td>field_model_recommended_material</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Recommended Support Material</td>
+    <td>field_model_recommended_support</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Print Units</td>
+    <td>field_model_print_units</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Scale at Given Print Units</td>
+    <td>field_model_scale_at_print_units</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Finishing Instructions</td>
+    <td>field_model_finishing_instructions</td>
+    <td>Long text</td>    
+  </tr>
+  
+  <tr>
+    <td>PubMed ID</td>
+    <td>field_model_pubmed_id</td>
+    <td>Integer</td>    
+  </tr>
+  
+  <tr>
+    <td>Digital Object Identifier (DOI)</td>
+    <td>field_model_digital_object_id</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Author(s)</td>
+    <td>field_model_authors</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Other Related Citation(s)</td>
+    <td>field_model_other_related_cit</td>
+    <td>Integer</td>    
+  </tr>
+  
+  <tr>
+    <td>Citation Title</td>
+    <td>field_model_citation_title</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Citation Year</td>
+    <td>field_model_citation_year</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Attribution Instructions</td>
+    <td>field_model_attribution_instr</td>
+    <td>Long text</td>    
+  </tr>
+  
+  <tr>
+    <td>Additional Model File(s)</td>
+    <td>field_model_additional_3d_model</td>
+    <td>URL (file)</td>    
+  </tr>
+  
+  <tr>
+    <td>Supplemental Documentation</td>
+    <td>field_model_supplemental_doc</td>
+    <td>URL (file)</td>    
+  </tr>
+  
+  <tr>
+    <td>URL path settings</td>
+    <td>path</td>
+    <td>Path module form elements</td>    
+  </tr>
+  
+  <tr>
+    <td>NIH Verified</td>
+    <td>field_model_nih_verified</td>
+    <td>Boolean</td>    
+  </tr>
+  
+  <tr>
+    <td>Terms and Conditions</td>
+    <td>field_model_terms_and_conditions</td>
+    <td>Boolean</td>    
+  </tr>
+  
+  <tr>
+    <td>Pipeline Log</td>
+    <td>field_model_pipeline_log</td>
+    <td>Long text</td>    
+  </tr>
+  
+  <tr>
+    <td>License</td>
+    <td>field_model_ license</td>
+    <td>Node reference</td>    
+  </tr>
+  
+  <tr>
+    <td>Download File(s)</td>
+    <td>field_model_download_files</td>
+    <td>URL (file)</td>    
+  </tr>
+  
+  <tr>
+    <td>Rating</td>
+    <td>field_model_rating</td>
+    <td>Fivestar Rating</td>    
+  </tr>
+  
+  <tr>
+    <td>Variation(s)</td>
+    <td>field_model_variations</td>
+    <td>Node reference</td>    
+  </tr>
+  
+  <tr>
+    <td>Quick Submit</td>
+    <td>field_model_quick_submit</td>
+    <td>Boolean</td>    
+  </tr>
+  
+  <tr>
+    <td>MoM Date</td>
+    <td>field_model_mom_date</td>
+    <td>Date</td>    
+  </tr>
+  
+  <tr>
+    <td>Link to MoM etnry</td>
+    <td>field_model_pdb_mom_url</td>
+    <td>Link</td>    
+  </tr>
+  
+  <tr>
+    <td>MoM Category</td>
+    <td>field_model_mom_category</td>
+    <td>Term reference</td>    
+  </tr>
+  
+  </tbody>
+</table>
+<p>### II. Model Metadata Fields for 3DPX “Write” APIs
+The following fields are required for proper pipeline processing and/or organization within the repository, and should be included in any API-based model submissions.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Label</th>
+      <th>Field Name</th>
+      <th>Field Type</th>
+    </tr>
+  </thead>
+  <tbody>
+  
+  <tr>
+    <td>Title</td>
+    <td>Title</td>
+    <td>Node module element</td>    
+  </tr>
+  
+  <tr>
+    <td>Category</td>
+    <td>field_model_category_tag</td>
+    <td>Term reference</td>    
+  </tr>
+  
+  <tr>
+    <td>3D Model File</td>
+    <td>field_model_3d_model_file</td>
+    <td>File</td>    
+  </tr>
+  
+  <tr>
+    <td>DICOM File</td>
+    <td>field_model_dicom_file</td>
+    <td>File</td>    
+  </tr>
+  
+  <tr>
+    <td>Molecular Data File</td>
+    <td>field_model_molecular_data_file</td>
+    <td>File</td>    
+  </tr>
+  
+  <tr>
+    <td>Volumetric Data File</td>
+    <td>field_model_volumetric_data_file</td>
+    <td>File</td>    
+  </tr>
+  
+  <tr>
+    <td>Protein Data Bank ID</td>
+    <td>field_model_pdb_id</td>
+    <td>Text</td>    
+  </tr>
+  
+  <tr>
+    <td>Electron Microscopy Data Bank ID</td>
+    <td>field_model_emdb_id</td>
+    <td>Integer</td>    
+  </tr>
+  
+  <tr>
+    <td>Description</td>
+    <td>field_model_description</td>
+    <td>Long text and summary</td>    
+  </tr>
+  
+  <tr>
+    <td>Terms and Conditions</td>
+    <td>field_model_terms_and_conditions</td>
+    <td>Boolean</td>    
+  </tr>
+  
+  <tr>
+    <td>License</td>
+    <td>field_model_ license</td>
+    <td>Node reference</td>    
+  </tr>
+  
+  </tbody>
+</table>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">3D Print Exchange</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>3D Print Exchange</li>
+          <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+          <li>
+            <a href="https://twitter.com/nih3dprint">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">nih3dprint</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Build your own tools using our API to access 3dprint.nih.gov public data.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
