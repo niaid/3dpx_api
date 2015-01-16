@@ -2,7 +2,7 @@
   -
     field_name: "Title"
     description: "Model title"
-    data_type: "String"
+    data_type: "Nick"
   -
     field_name: "Category"
     description: "field_model_category_tag"
