@@ -45,8 +45,7 @@ JSON: [api.data.gov/nih/3dprint/model/1.0/model_single.json?model_id=000914&api_
    // This can be any API endpoint on your server, and you can use the
    // special {{api_key}} variable to automatically substitute in the API
    // key the user just signed up for.
-JSON: [api.data.gov/nih/3dprint/model/1.0/model_single.json?model_id=000914&api_key=DEMO_KEY]()
-   exampleApiUrl: 'http://api.data.gov/nih/3dprint/model/1.0/model_single.json?model_id=000914&{{api_key}}=DEMO_KEY'
+   exampleApiUrl: 'http://api.data.gov/nih/3dprint/model/1.0/model_single.json?model_id=000914&{{api_key}}'
  };
 
  /* * * DON'T EDIT BELOW THIS LINE * * */
