@@ -1,9 +1,10 @@
 ---
-layout: page
-title: API Calls
-permalink: /api_calls/
+layout: default
+title: API Key
+permalink: /api_key/
 ---
 
+## API Key
 
 {% raw %}
 <div id="apidatagov_signup">Loading signup form...</div>

@@ -1,10 +1,12 @@
 ---
-layout: page 
-title: Field Reference for 3DPX APIs
+layout: default 
+title: Field Reference
 permalink: /field_reference/
 ---
 
-#### I. Model Metadata Fields for 3DPX "Read" API Calls
+## Field Reference
+
+### I. Model Metadata Fields for 3DPX "Read" API Calls
 
 <table class="table">
   <thead>
