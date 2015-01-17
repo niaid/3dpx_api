@@ -6,14 +6,14 @@ permalink: /field_reference/
 
 ## Field Reference
 
-### I. Model Metadata Fields for 3DPX "Read" API Calls
+### Data returned by the 3DPX API
 
 <table class="table">
   <thead>
     <tr>
       <th class="th">Field name</th>
       <th class="th">Description</th>
-      <th class="th">Data Type</th>
+      <th class="th">Data type</th>
     </tr>
   </thead>
   <tbody>
@@ -28,6 +28,7 @@ permalink: /field_reference/
   </tbody>
 </table>
 
+<!---
 #### II. Model Metadata Fields for 3DPX "Write" APIs
 The following fields are required for proper pipeline processing and/or organization within the repository, and should be included in any API-based model submissions.
 
@@ -49,3 +50,4 @@ The following fields are required for proper pipeline processing and/or organiza
   {% endfor %}
   </tbody>
 </table>
+-->
