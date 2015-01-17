@@ -2,7 +2,7 @@
   -
     field_name: "nid"
     description: "3dpx node id"
-    data_type: "int"
+    data_type: "integer"
   -
     field_name: "node_title"
     description: "title of model"
@@ -14,7 +14,7 @@
   -
     field_name: "author.id"
     description: "3dpx author id"
-    data_type: "int"
+    data_type: "integer"
   -
     field_name: "author.name"
     description: "user who submitted model"
@@ -22,7 +22,7 @@
   -
     field_name: "field_model_category_tag.id"
     description: "3dpx model category id (array of values)"
-    data_type: "int"
+    data_type: "integer"
   -
     field_name: "field_model_category_tag.name"
     description: "model category (array of values)"
@@ -50,7 +50,7 @@
   -
     field_name: "field_model_license.id"
     description: "3dpx license type id"
-    data_type: "int"
+    data_type: "integer"
   -
     field_name: "field_model_license.name"
     description: "license type specified by model submitter"
@@ -74,7 +74,7 @@
   -
     field_name: "field_model_emdb_id"
     description: "id for electron microscopy data bank, in #### format"
-    data_type: "int"
+    data_type: "integer"
   -
     field_name: "field_model_pdb_id"
     description: "id for protein data bank, in **** format"
@@ -114,7 +114,7 @@
   -
     field_name: "field_model_variations"
     description: "model variation, referencing nid field (array of values)"
-    data_type: "int"
+    data_type: "integer"
   -
     field_name: "field_model_resolution"
     description: "model resolution"
@@ -214,11 +214,11 @@
   -
     field_name: "field_model_pubmed_id"
     description: "pubmed identifier"
-    data_type: "int"
+    data_type: "integer"
   -
     field_name: "field_model_other_related_cit"
     description: "pubmed identifier for other related citation(s) (array of values)"
-    data_type: "int"
+    data_type: "integer"
   -
     field_name: "field_model_citation_title"
     description: "citation title"
@@ -239,4 +239,3 @@
     field_name: "field_model_quick_submit"
     description: "submitted via 3dpx quick submit function"
     data_type: "boolean"
-  -

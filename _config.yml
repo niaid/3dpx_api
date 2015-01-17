@@ -1,6 +1,6 @@
 # Site settings
 title: NIH 3D Print Exchange
-email: 3dprint[at]nih.gov
+email: 3dprint@nih.gov
 description: > # this means to ignore newlines until "baseurl:"
   Build your own tools using our API to access 3dprint.nih.gov public data.
 baseurl: "/3dpx_api" # the subpath of your site, e.g. /blog/
