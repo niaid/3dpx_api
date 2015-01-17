@@ -1,12 +1,12 @@
 # Site settings
-title: 3D Print Exchange
-email: 3dprintexchange@nih.gov
+title: NIH 3D Print Exchange
+email: 3dprint[at]nih.gov
 description: > # this means to ignore newlines until "baseurl:"
   Build your own tools using our API to access 3dprint.nih.gov public data.
 baseurl: "/3dpx_api" # the subpath of your site, e.g. /blog/
-url: "https://github.com/MedicalScienceComputing" # the base hostname & protocol for your site
+url: "https://github.com/niaid" # the base hostname & protocol for your site
 twitter_username: nih3dprint
-#github_username:  MedicalScienceComputing
+#github_username: philipmac
 
 # Build settings
 markdown: kramdown
