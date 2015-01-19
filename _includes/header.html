@@ -14,11 +14,16 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+        <a class="page-link" href="/3dpx_api/use_api">Use The API</a>
+        <a class="page-link" href="/3dpx_api/api_key">API Key</a>
+        <a class="page-link" href="/3dpx_api/field_reference">Field Reference</a>
+
+        <!-- {% for page in site.pages %} -->
+        <!--   {% if page.title %} -->
+        <!--   <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> -->
+        <!--   {% endif %} -->
+        <!-- {% endfor %} -->
+
       </div>
     </nav>
 
