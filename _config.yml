@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/3dpx_api" # the subpath of your site, e.g. /blog/
 url: "https://github.com/niaid" # the base hostname & protocol for your site
 twitter_username: nih3dprint
-#github_username: philipmac
+github_username: niaid/3dpx_api
 
 # Build settings
 markdown: kramdown
