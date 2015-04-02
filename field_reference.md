@@ -14,6 +14,7 @@ permalink: /field_reference/
       <th class="th">Field name</th>
       <th class="th">Description</th>
       <th class="th">Data type</th>
+      <th class="th">Example</th>	    
     </tr>
   </thead>
   <tbody>
@@ -23,6 +24,7 @@ permalink: /field_reference/
     <td class="td">{{ field_refs_for_3dpx_read_api.field_name }}</td>
     <td class="td">{{ field_refs_for_3dpx_read_api.description }}</td>
     <td class="td">{{ field_refs_for_3dpx_read_api.data_type }}</td>    
+    <td class="td-nowrap">{{ field_refs_for_3dpx_read_api.example }}</td>    
   </tr>
   {% endfor %}
   </tbody>
@@ -38,6 +40,7 @@ The following fields are required for proper pipeline processing and/or organiza
       <th class="th">Label</th>
       <th class="th">Field Name</th>
       <th class="th">Field Type</th>
+      <th class="th">Example</th>
     </tr>
   </thead>
   <tbody>
@@ -45,7 +48,8 @@ The following fields are required for proper pipeline processing and/or organiza
   <tr>
     <td class="td">{{ field_refs_for_3dpx_write_api.label }}</td>
     <td class="td">{{ field_refs_for_3dpx_write_api.field_name }}</td>
-    <td class="td">{{ field_refs_for_3dpx_write_api.field_type }}</td>    
+    <td class="td">{{ field_refs_for_3dpx_write_api.field_type }}</td>		
+    <td class="td">{{ field_refs_for_3dpx_write_api.example }}</td> 
   </tr>
   {% endfor %}
   </tbody>
